@@ -36,35 +36,35 @@ finally () {</pre>
  * <pre>if (a == b || b == c)</pre>
 * Indent on case in switch case statements
  * <pre>switch () {
-            case 1:</pre>
+ case 1:</pre>
 * Mandatory comment for when a case falls through, and when not stacking
  * <pre>switch () {
-            case 1:
-                // Fallthrough
+ case 1:
+ // Fallthrough
 
-            case 2:</pre>
+ case 2:</pre>
  * <pre>switch () {
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-                // Fallthrough
+ case 1:
+ case 2:
+ case 3:
+ case 4:
+ case 5:
+ // Fallthrough
 
-            case 6:</pre>
+ case 6:</pre>
 * Empty line between cases after break, return, or fallthrough
  * <pre>switch () {
-            case 1:
-                break;
+ case 1:
+ break;
 
-            case 2:</pre>
+ case 2:</pre>
 * Prefer early returns over method indentation. Example:
  * <pre>if (!precondition) {
-            // Possibly cleanup
-            return;
-        }
+ // Possibly cleanup
+ return;
+ }
 
-        // Continue with task</pre>
+ // Continue with task</pre>
 * Java standard class and method naming, with exception to McMMO in a class name
  * <pre>thisIsAMethod()</pre>
  * <pre>ThisIsAClass</pre>
